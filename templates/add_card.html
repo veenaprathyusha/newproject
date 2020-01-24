@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}add card{% endblock %}
+{% block content %}
+<h1>add a new card</h1>
+<form method="post">
+<p>
+    Question:
+    <input type="text" name="question">
+</p>
+<p>
+    Answer:
+    <input type="text" name="answer">
+</p>
+<button type="submit">submit</button>
+</form>
+{% endblock %}
